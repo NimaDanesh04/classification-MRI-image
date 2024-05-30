@@ -7,7 +7,7 @@ import cv2 as cv
 st.markdown('<style>body {background-color: #f0f0f0;}</style>', unsafe_allow_html=True)
 st.markdown('<h2 style="color: red; text-align: center;">"Diagnosing tumors with just one click"</h2>', unsafe_allow_html=True)
 
-model = load_model('weights/model.h5')
+model = load_model('wheight/model.h5')
 
 input_image = st.file_uploader("Upload Your Image")
 
